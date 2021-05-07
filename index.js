@@ -285,11 +285,15 @@
   }
 
   function createInfoHotspotElement(hotspot) {
+    var infoClass = "info-hotspot";
+    if(hotspot.fullscreen){
+      infoClass = "info-hotspot-f";
+    }
 
     // Create wrapper element to hold icon and tooltip.
     var wrapper = document.createElement('div');
     wrapper.classList.add('hotspot');
-    wrapper.classList.add('info-hotspot');
+    wrapper.classList.add(infoClass);
 
     // Create hotspot/tooltip header.
     var header = document.createElement('div');

@@ -43,37 +43,69 @@ var APP_DATA = {
           "yaw": 3.4705625040487575e-9,
           "pitch": -0.21180812403554938,
           "title": "Welcome to Alaqua<br>",
-          "text": "Text"
+          "text": "This tour is brought to you by AmeriCorps NWF" +
+              " Environmental Stewards and the Choctawhatchee Basin Alliance" +
+              " (CBA). Welcome to the Alaqua Living Shoreline, one of our " +
+              "restoration sites on the Eglin Air Force Base Reservation. We built oyster reefs" +
+              " and planted smooth cordgrass to protect this environmentally sensitive" +
+              " area from erosion. On this tour, you will explore this area and" +
+              " learn what makes living shorelines special and important. Click and" +
+              " drag to move around, and click on info hotspots to read more. <br>",
+          "fullscreen": false
+        },
+        {
+          "yaw": 6.75,
+          "pitch": -0.45,
+          "title": "Get Your Bearings <br>",
+          "text": " This aerial map shows approximately where each of our panoramas is located on the Alaqua shoreline." +
+              " <br> <br><img src='https://i.imgur.com/I05hUkE.png' alt='map' style='width:100%'><br>",
+          "fullscreen": true
         },
         {
           "yaw": -0.4619005042930322,
           "pitch": -0.511763741515038,
           "title": "Sounds of Alaqua<br>",
-          "text": "Text"
+          "text": "Sounds of Alaqua placeholder<br>",
+          "fullscreen": false
         },
         {
           "yaw": 0.26189901504017854,
           "pitch": 0.06534681923421459,
-          "title": "Welcome Video Placeholder<br>",
-          "text": "Text"
+          "title": "Alaqua Through the Years<br>",
+          "text": "Interview video coming soon!<br>",
+          "fullscreen": true
         },
         {
           "yaw": -1.177331111459976,
           "pitch": 0.23294606173970855,
           "title": "Stormwater Runoff<br>",
-          "text": "Text"
+          "text": "On the shoreline, stormwater runoff can enter the bay." +
+              " Stormwater runoff is rainwater that flows over the land," +
+              " picking up pollutants, instead of soaking into it. The more " +
+              "hard surfaces in an area, like asphalt roads and developed houses, " +
+              "the more stormwater runoff is produced, as the rainwater can't soak " +
+              "into soft earth. Below, see an example of a drainage ditch from " +
+              "the neighborhood near our Alaqua living shoreline. <br> <br>" +
+              "<img src='https://i.imgur.com/aC8Asn5.jpg' alt='Drainage Ditch' style='width:100%;'> <br>",
+          "fullscreen": false
         },
         {
           "yaw": 0.536753692152157,
           "pitch": 0.2739248159271206,
           "title": "Eastern Lubber Grasshoppers<br>",
-          "text": "Text"
+          "text": "These juvenile Eastern Lubber Grasshoppers make our living " +
+                "shoreline their home! The adults are clumsy and slow, giving " +
+                "the species its common name. <br> <br>" +
+                "<iframe width=\"100%\" height=\"530\" src=\"https://www.youtube.com/embed/LOb8wkBt4Mg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>" +
+                "<br> <br> <img src='https://i.imgur.com/V9lRV8x.jpg' alt='Juvenile Eastern Lubber Grasshoppers' style='width:100%;'> <br>",
+          "fullscreen": true
         },
         {
           "yaw": 2.7771131391429558,
           "pitch": -0.21250457980051607,
-          "title": "Range road<br>",
-          "text": "Text"
+          "title": "Range Road<br>",
+          "text": "You can access the Alaqua Living Shoreline using this range road! You will need an Eglin Reservation Outdoor Recreation Permit. <br>",
+          "fullscreen": false
         }
       ]
     },
@@ -123,32 +155,51 @@ var APP_DATA = {
         {
           "yaw": 1.2379548508259113,
           "pitch": 0.15212085870691183,
-          "title": "A living shoreline is...<br>",
-          "text": "Text"
+          "title": "What is a Living Shoreline?<br>",
+          "text": "A living shoreline is a shoreline that promotes life and provides habitat. " +
+              " Unlike nonliving shorelines, such as boardwalks or seawalls, living shorelines are resilient in" +
+              " the face of natural disasters. This living shoreline survived Hurricane Sally! <br>",
+          "fullscreen": false
         },
         {
           "yaw": 0.28376867654788995,
           "pitch": 0.37302938854900525,
-          "title": "Buried?!",
-          "text": "Text"
+          "title": "A Buried Reef? <br>",
+          "text": "Oyster reefs rebuild the shoreline and reverse erosion by trapping sand and sediment washed in by waves." +
+              " This sediment builds up behind the reef, as you can see here. The bay floor is also soft," +
+              " so reefs slowly sink. This reef might need some topping off! <br>",
+          "fullscreen": false
         },
         {
           "yaw": 0.7402019482811149,
           "pitch": 0.3331324490396348,
-          "title": "Recycled shell<br>",
-          "text": "Text"
+          "title": "Recycled Shell Reef<br>",
+          "text": "These reefs are made of bagged oyster shell from our oyster shell recycling program. " +
+              "We pick up shells from local restaurants, leave them to cure in the sun at our office for 6 months," +
+              " then bag them in marine grade mesh and stack them to create reefs. Oysters like to settle " +
+              "on other oyster shells, so oyster larvae quickly turn these bagged shell reefs into thriving habitats. <br>",
+          "fullscreen": false
         },
         {
           "yaw": -1.3435353655998163,
           "pitch": 0.17777198071624767,
-          "title": "Phragmites",
-          "text": "Text"
+          "title": "Gulf Coast Phragmites <br>",
+          "text": "This is gulf coast Phragmites. It is a native reed that grows along the shoreline of our bay" +
+              " and in our coastal dune lakes. At the Alaqua site, its roots help hold the soil in place, like the" +
+              " roots of smooth cordgrass. In some of our coastal dune lakes, such as Western Lake, Phragmites has" +
+              " become invasive by not allowing other native species to grow. It may also change the way water flows" +
+              " around the lake, which could have a huge impact on all the wildlife in the area. CBA and AmeriCorps NWF " +
+              "Environmental Stewards are currently conducting a study about the impact of different Phragmites " +
+              "removal methods on water quality in some of our coastal dune lakes. <br>",
+          "fullscreen": false
         },
         {
           "yaw": -0.4563652548599322,
           "pitch": -0.3770214578981541,
-          "title": "Live oak<br>",
-          "text": "Text"
+          "title": "Live Oak<br>",
+          "text": "This tree is a live oak (<i>Quercus sp.</i>) . Live oaks are native trees that can spread over" +
+              " 100 feet wide and live for hundreds of years. They are evergreen, giving them their name. <br>",
+          "fullscreen": false
         }
       ]
     },
@@ -209,25 +260,37 @@ var APP_DATA = {
           "yaw": 2.315141497046741,
           "pitch": 0.22306924179181742,
           "title": "Freshwater Creek<br>",
-          "text": "Text"
+          "text": "Our bay has brackish water (a mixture of fresh and salt water). Creeks like this one let in fresh water," +
+              " but the majority of our fresh water comes from the Choctawhatchee River on the east side of the bay." +
+              " Salt water enters on the west side of the bay through the Destin Pass from the Gulf of Mexico. <br> <br>" +
+              "<img src='https://i.imgur.com/aGcmozc.png' alt='' width='100%'>",
+          "fullscreen": true
         },
         {
           "yaw": 1.488790206597165,
           "pitch": -0.29117675295082357,
           "title": "Our Watershed<br>",
-          "text": "Text"
+          "text": "A watershed is an area of land and water that drains to a common point. Here, that common point" +
+              " is the Choctawhatchee Bay. Most of the Choctawhatchee Bay Watershed is actually in Alabama. " +
+              "Pollution that enters the Choctawhatchee River in Alabama will eventually drain into our bay. <br> <br>" +
+              " <img src='https://i.imgur.com/X0Ipene.png' alt='watershed map' width='100%'> <br>",
+          "fullscreen": true
         },
         {
           "yaw": 1.9483448372158474,
           "pitch": -0.10422054263287706,
           "title": "AmeriCorps members<br>",
-          "text": "Text"
+          "text": "These AmeriCorps members are investigating this creek. AmeriCorps is a national service program" +
+              " that organizes volunteers to “get things done for America.” Members serve year-long terms in communities" +
+              " across the country. AmeriCorps NWF Environmental Stewards work closely with CBA in environmental education and restoration. <br>",
+          "fullscreen": false
         },
         {
           "yaw": 3.047775872802019,
           "pitch": -0.18549558831552915,
           "title": "Tree Cavity<br>",
-          "text": "Text"
+          "text": "Tree cavities provide important habitat for many woodland creatures, especially bats, bird (owl, woodpecker), squirrel. They're part of the reason mature trees are so important in the forest. <img src='https://i.imgur.com/2VAdfi1.jpg' alt=''>",
+          "fullscreen": false
         }
       ]
     },
@@ -276,31 +339,36 @@ var APP_DATA = {
           "yaw": -0.6600975312425703,
           "pitch": 0.11453666443309984,
           "title": "Cypress Knees<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": -1.545283043480664,
           "pitch": -0.10047759342193352,
           "title": "<div>Alligator Habitat</div>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": -2.0420479790687374,
           "pitch": 0.3837817388783922,
           "title": "Tannins",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 2.1044265897954606,
           "pitch": -0.17473059992859064,
           "title": "Palmettos",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 1.8405027321975362,
           "pitch": 0.3147816990616086,
           "title": "Marine Debris<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": true
         }
       ]
     },
@@ -347,49 +415,57 @@ var APP_DATA = {
           "yaw": 0.2734440139228518,
           "pitch": -0.1779994629894066,
           "title": "Planting closeup<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 0.6697369284232373,
           "pitch": 0.12477771048595798,
           "title": "Burlap Bags<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": -0.14383439878318427,
           "pitch": -0.009522584952131652,
           "title": "<div>PVC pipe</div>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 2.2207811577429224,
           "pitch": -0.28918288565721006,
           "title": "Charcoal tree<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 1.4243578313280523,
           "pitch": 0.5837482150609432,
           "title": "Rhizome",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 3.0950752281733322,
           "pitch": -0.32426431185411175,
           "title": "Why Plant?<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 1.0609672902164817,
           "pitch": -0.05010818158282504,
           "title": "Spartina patens<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 2.58014679654322,
           "pitch": 0.1308555943529548,
           "title": "Handprints",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         }
       ]
     },
@@ -440,43 +516,50 @@ var APP_DATA = {
           "yaw": 1.9643099681177567,
           "pitch": 0.030833025581156193,
           "title": "Edge of Alaqua<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": -0.42696646073856215,
           "pitch": -0.08919979416979373,
           "title": "Wearing Waders<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 0.03289346835211404,
           "pitch": 0.19692434563946293,
           "title": "Black Needlerush<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 1.0418407596309613,
           "pitch": 0.09867515175440289,
           "title": "Soft stemmed bulrush<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 1.070086127636527,
           "pitch": -0.519454447479557,
           "title": "Long leaf pine<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": -2.313152337909843,
           "pitch": -0.05876899993406148,
           "title": "Salt marsh succession<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 2.7052528190512923,
           "pitch": -0.16729313183753902,
           "title": "Visit cessna<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         }
       ]
     },
@@ -527,37 +610,43 @@ var APP_DATA = {
           "yaw": 0.815700491482577,
           "pitch": 0.5878362370783119,
           "title": "underwater cordgrass<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 1.6174315341842238,
           "pitch": -0.6107263709797195,
           "title": "Spanish moss<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": -1.1723043644657167,
           "pitch": 0.2986023355985665,
           "title": "Reef length + distance from shore<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": -2.9051044700547486,
           "pitch": 0.17662140784627312,
           "title": "Habitat",
-          "text": "Bird photo<br>"
+          "text": "Bird photo<br>",
+          "fullscreen": false
         },
         {
           "yaw": 1.1158022481602288,
           "pitch": 0.2080082807714163,
           "title": "<div>Intertidal zone</div>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 1.9164338865361685,
           "pitch": 0.526605089883315,
           "title": "Brackish water - excretes salt<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         }
       ]
     },
@@ -612,37 +701,43 @@ var APP_DATA = {
           "yaw": -0.7705922850362477,
           "pitch": -0.2141498229907004,
           "title": "Erosion is bad. Why?<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 0.28240241559104184,
           "pitch": 0.18889029881609432,
           "title": "Reefs fight erosion, protect trees<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": -1.7713467652651662,
           "pitch": -0.5972670804513953,
           "title": "Hardwood forest<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": -2.249904318532707,
           "pitch": 0.05174480684796734,
           "title": "tree unstable due to erosion<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 1.2190551956326843,
           "pitch": 0.3836532548846918,
           "title": "Why do we build reefs?<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": -1.7310480443291496,
           "pitch": 0.31930488317423134,
           "title": "Driftwood barnacles photo<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         }
       ]
     },
@@ -697,31 +792,36 @@ var APP_DATA = {
           "yaw": -2.2443451810666275,
           "pitch": 0.10732609484927735,
           "title": "Fetch",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 2.7336821483494296,
           "pitch": 0.09882628216599798,
           "title": "Dolphins!",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": -2.6605560343587733,
           "pitch": -0.3736493183272245,
           "title": "cba website<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": 0.07224161585608257,
           "pitch": -0.44881784499248667,
           "title": "Hardwood forest<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         },
         {
           "yaw": -1.700772422027903,
           "pitch": -0.29594285031075707,
           "title": "Hammock point?<br>",
-          "text": "Text"
+          "text": "Text",
+          "fullscreen": false
         }
       ]
     }
