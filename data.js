@@ -262,7 +262,7 @@ var APP_DATA = {
           "title": "Freshwater Creek<br>",
           "text": "Our bay has brackish water (a mixture of fresh and salt water). Creeks like this one let in fresh water," +
               " but the majority of our fresh water comes from the Choctawhatchee River on the east side of the bay." +
-              " Salt water enters on the west side of the bay through the Destin Pass from the Gulf of Mexico. <br> <br>" +
+              " Salt water enters from the Gulf of Mexico through the Destin Pass (aka East Pass) on the west side of the bay. <br> <br>" +
               "<img src='https://i.imgur.com/aGcmozc.png' alt='' width='100%'>",
           "fullscreen": true
         },
@@ -289,7 +289,9 @@ var APP_DATA = {
           "yaw": 3.047775872802019,
           "pitch": -0.18549558831552915,
           "title": "Tree Cavity<br>",
-          "text": "Tree cavities provide important habitat for many woodland creatures, especially bats, bird (owl, woodpecker), squirrel. They're part of the reason mature trees are so important in the forest. <img src='https://i.imgur.com/2VAdfi1.jpg' alt=''>",
+          "text": "Tree cavities provide important habitat for many woodland creatures, especially bats, squirrels, and birds such as" +
+              " owls and woodpeckers. They're part of the reason mature trees are so important in the forest." +
+              " <br> <br><img src='https://i.imgur.com/2VAdfi1.jpg' alt='' width='100%'> <br>",
           "fullscreen": false
         }
       ]
@@ -339,36 +341,49 @@ var APP_DATA = {
           "yaw": -0.6600975312425703,
           "pitch": 0.11453666443309984,
           "title": "Cypress Knees<br>",
-          "text": "Text",
+          "text": "Here, you can see cypress knees. <br> <br> <img src='https://i.imgur.com/PBhuGx2.jpg' alt='cypress knees' width='100%'>" +
+              "<br> <br> The purpose of cypress knees is one of the great mysteries of life. The largest recorded cypress knee" +
+              " was 14 feet tall, found on the shore of the Suwannee River. <br>",
           "fullscreen": false
         },
         {
           "yaw": -1.545283043480664,
           "pitch": -0.10047759342193352,
           "title": "<div>Alligator Habitat</div>",
-          "text": "Text",
+          "text": "Alligators live in our bay, though they are rare this far north. Be careful and aware while near water. <br><br>" +
+              "<img src='https://images.pexels.com/photos/151354/pexels-photo-151354.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='alligator' width='100%'><br>",
           "fullscreen": false
         },
         {
           "yaw": -2.0420479790687374,
           "pitch": 0.3837817388783922,
-          "title": "Tannins",
-          "text": "Text",
+          "title": "Why is the Water Dark?",
+          "text": "Chemicals called tannins make the water brown. They're normal for this area and come from organic material.<br><br>" +
+              " <img src='https://i.imgur.com/gDTgjTf.jpg' alt='tannins' width='100%'  style='filter: contrast(120%) brightness(80%)'> <br> <br>" +
+              "Tannins also give tea its color! <br> <br>" +
+              "<img src='https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='tea' width='100%'>",
           "fullscreen": false
         },
         {
           "yaw": 2.1044265897954606,
           "pitch": -0.17473059992859064,
           "title": "Palmettos",
-          "text": "Text",
+          "text": "Sabal palms and saw palmettos are both native to Northwest Florida, and they can be tricky to tell apart. <br> <br>" +
+              "This image is a sabal palm leaf. Note the angled stem and folded leaf. <img src='https://i.imgur.com/RWQcjYl.jpg' alt='sabal palm' width='100%'><br> <br>" +
+              "This is a saw palmetto leaf. Note the blunt stem. <img src='https://i.imgur.com/hQ0Z19N.jpg' alt='saw palmetto' width='100%'><br>",
           "fullscreen": false
         },
         {
           "yaw": 1.8405027321975362,
           "pitch": 0.3147816990616086,
           "title": "Marine Debris<br>",
-          "text": "Text",
-          "fullscreen": true
+          "text": "This piece of orange netting is an example of marine debris. Marine debris is trash that ends up in water bodies. " +
+              "It causes problems for both people and wildlife, especially when animals mistake it for food.<br> <br> " +
+              "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Turtle_entangled_in_marine_debris_%28ghost_net%29.jpg/300px-Turtle_entangled_in_marine_debris_%28ghost_net%29.jpg' alt='Man examines marine debris' width='100%'> " +
+              "<br><br>" +
+              " In water, everything takes longer to degrade. For example, when cigarettes become marine debris, they stick around for 10-12 years. " +
+              "Plastic bottles can stay in our waterways for 450 years. You can fight marine debris by putting your trash in secure bins, reducing waste, and participating in beach cleanups.<br>",
+          "fullscreen": false
         }
       ]
     },
@@ -414,15 +429,19 @@ var APP_DATA = {
         {
           "yaw": 0.2734440139228518,
           "pitch": -0.1779994629894066,
-          "title": "Planting closeup<br>",
-          "text": "Text",
-          "fullscreen": false
+          "title": "See Planting Close Up<br>",
+          "text": "Here, an AmeriCorps member re-plants loose plants behind plant bags. <br><br><img src='https://i.imgur.com/Xc5403o.jpg' alt='' width='100%'><br><br>" +
+              "In the below image, you can see the sand covering old plant bags. Sand buries the bags, and the grasses establish themselves." +
+              "<img src='https://i.imgur.com/iFyP4Qc.jpg' alt='' width='100%'>",
+          "fullscreen": true
         },
         {
           "yaw": 0.6697369284232373,
           "pitch": 0.12477771048595798,
           "title": "Burlap Bags<br>",
-          "text": "Text",
+          "text": "We plant smooth cordgrass inside sand-filled burlap bags to help it establish itself. The sand inside the bags " +
+              "weighs the plants down, so they stay put as waves hit the shoreline. Eventually, the plants' roots grow through the bags, " +
+              "and the bags biodegrade, leaving just smooth cordgrass.<br>",
           "fullscreen": false
         },
         {
