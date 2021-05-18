@@ -104,7 +104,7 @@ var APP_DATA = {
           "yaw": 2.7771131391429558,
           "pitch": -0.21250457980051607,
           "title": "Range Road<br>",
-          "text": "You can access the Alaqua Living Shoreline using this range road! You will need an Eglin Reservation Outdoor Recreation Permit. <br>",
+          "text": "You can access the Alaqua Living Shoreline using range road 313! You will need an Eglin Reservation Outdoor Recreation Permit. <br>",
           "fullscreen": false
         }
       ]
@@ -430,7 +430,7 @@ var APP_DATA = {
           "yaw": 0.2734440139228518,
           "pitch": -0.1779994629894066,
           "title": "See Planting Close Up<br>",
-          "text": "Here, an AmeriCorps member re-plants loose plants behind plant bags. <br><br><img src='https://i.imgur.com/Xc5403o.jpg' alt='' width='100%'><br><br>" +
+          "text": "On this beach, we are planting smooth cordgrass, or Spartina alterniflora. Here, an AmeriCorps member re-plants loose plants behind plant bags. <br><br><img src='https://i.imgur.com/Xc5403o.jpg' alt='' width='100%'><br><br>" +
               "In the below image, you can see the sand covering old plant bags. Sand buries the bags, and the grasses establish themselves." +
               "<img src='https://i.imgur.com/iFyP4Qc.jpg' alt='' width='100%'>",
           "fullscreen": true
@@ -447,43 +447,55 @@ var APP_DATA = {
         {
           "yaw": -0.14383439878318427,
           "pitch": -0.009522584952131652,
-          "title": "<div>PVC pipe</div>",
-          "text": "Text",
+          "title": "<div>PVC Pipe</div>",
+          "text": "This pipe helps us measure how much our reefs rebuild the shoreline. Sand builds up behind the reefs, " +
+              "and we can see it happen as the sand level rises on this PVC pipe.<br>",
           "fullscreen": false
         },
         {
           "yaw": 2.2207811577429224,
           "pitch": -0.28918288565721006,
-          "title": "Charcoal tree<br>",
-          "text": "Text",
+          "title": "Charcoal Tree<br>",
+          "text": "This tree shows a mark from a recent fire. It's a longleaf pine tree, and its fire resistant " +
+              "bark protected it from this burn.<br><br>" +
+              "<img src='https://i.imgur.com/IEkrHje.jpg' width='100%' alt=''>" +
+              "<img src='https://i.imgur.com/kwUbh9e.jpg' width='100%' alt=''>" +
+              "<img src='https://i.imgur.com/9tR92He.jpg' width='100%' alt=''><br>",
           "fullscreen": false
         },
         {
           "yaw": 1.4243578313280523,
           "pitch": 0.5837482150609432,
-          "title": "Rhizome",
-          "text": "Text",
+          "title": "Rhizomes",
+          "text": "Rhizomes are a special type of underground stem. Smooth cordgrass can send out rhizomes" +
+              " to help it spread to cover our shoreline. Many other plants, such as torpedo grass, lilies, " +
+              "asparagus, venus flytrap, and aspen trees. The ginger root used in cooking is actually a rhizome! <br> <br>" +
+              "<img src='https://i.imgur.com/QLu61SS.png'>",
           "fullscreen": false
         },
         {
           "yaw": 3.0950752281733322,
           "pitch": -0.32426431185411175,
           "title": "Why Plant?<br>",
-          "text": "Text",
+          "text": "Our smooth cordgrass provides three main benefits to our bay. It filters and absorbs pollution" +
+              " from stormwater runoff, improving water quality. Its strong roots hold onto soil, fighting erosion to" +
+              " protect the shoreline. And, finally, it gives juvenile fish and other small animals a habitat and a place" +
+              " to hide. Many of these juveniles  grow into commercially harvested fish important to our local economy. <br>",
           "fullscreen": false
         },
         {
           "yaw": 1.0609672902164817,
           "pitch": -0.05010818158282504,
           "title": "Spartina patens<br>",
-          "text": "Text",
+          "text": "We plant Spartina patens, another type of cordgrass, behind our smooth cordgrass. It likes a drier" +
+              " environment than smooth cordgrass, so we plant it farther from the water.<br>",
           "fullscreen": false
         },
         {
           "yaw": 2.58014679654322,
           "pitch": 0.1308555943529548,
           "title": "Handprints",
-          "text": "Text",
+          "text": "",
           "fullscreen": false
         }
       ]
