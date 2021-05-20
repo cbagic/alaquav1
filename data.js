@@ -263,7 +263,7 @@ var APP_DATA = {
           "text": "Our bay has brackish water (a mixture of fresh and salt water). Creeks like this one let in fresh water," +
               " but the majority of our fresh water comes from the Choctawhatchee River on the east side of the bay." +
               " Salt water enters from the Gulf of Mexico through the Destin Pass (aka East Pass) on the west side of the bay. <br> <br>" +
-              "<img src='https://i.imgur.com/aGcmozc.png' alt='' width='100%'>",
+              "<img src='https://i.imgur.com/aGcmozc.png' alt='Choctawhatchee Bay Map' width='100%'>",
           "fullscreen": true
         },
         {
@@ -291,7 +291,7 @@ var APP_DATA = {
           "title": "Tree Cavity<br>",
           "text": "Tree cavities provide important habitat for many woodland creatures, especially bats, squirrels, and birds such as" +
               " owls and woodpeckers. They're part of the reason mature trees are so important in the forest." +
-              " <br> <br><img src='https://i.imgur.com/2VAdfi1.jpg' alt='' width='100%'> <br>",
+              " <br> <br><img src='https://i.imgur.com/2VAdfi1.jpg' alt='Tree Cavity' width='100%'> <br>",
           "fullscreen": false
         }
       ]
@@ -359,7 +359,7 @@ var APP_DATA = {
           "pitch": 0.3837817388783922,
           "title": "Why is the Water Dark?",
           "text": "Chemicals called tannins make the water brown. They're normal for this area and come from organic material.<br><br>" +
-              " <img src='https://i.imgur.com/gDTgjTf.jpg' alt='tannins' width='100%'  style='filter: contrast(120%) brightness(80%)'> <br> <br>" +
+              " <img src='https://i.imgur.com/gDTgjTf.jpg' alt='brown water with leaves' width='100%'  style='filter: contrast(120%) brightness(80%)'> <br> <br>" +
               "Tannins also give tea its color! <br> <br>" +
               "<img src='https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='tea' width='100%'>",
           "fullscreen": false
@@ -369,8 +369,8 @@ var APP_DATA = {
           "pitch": -0.17473059992859064,
           "title": "Palmettos",
           "text": "Sabal palms and saw palmettos are both native to Northwest Florida, and they can be tricky to tell apart. <br> <br>" +
-              "This image is a sabal palm leaf. Note the angled stem and folded leaf. <img src='https://i.imgur.com/RWQcjYl.jpg' alt='sabal palm' width='100%'><br> <br>" +
-              "This is a saw palmetto leaf. Note the blunt stem. <img src='https://i.imgur.com/hQ0Z19N.jpg' alt='saw palmetto' width='100%'><br>",
+              "This image is a sabal palm leaf. Note the angled stem and folded leaf. <img src='https://i.imgur.com/RWQcjYl.jpg' alt='sabal palm leaf' width='100%'><br> <br>" +
+              "This is a saw palmetto leaf. Note the blunt stem. <img src='https://i.imgur.com/hQ0Z19N.jpg' alt='saw palmetto leaf' width='100%'><br>",
           "fullscreen": false
         },
         {
@@ -430,9 +430,9 @@ var APP_DATA = {
           "yaw": 0.2734440139228518,
           "pitch": -0.1779994629894066,
           "title": "See Planting Close Up<br>",
-          "text": "On this beach, we are planting smooth cordgrass, or Spartina alterniflora. Here, an AmeriCorps member re-plants loose plants behind plant bags. <br><br><img src='https://i.imgur.com/Xc5403o.jpg' alt='' width='100%'><br><br>" +
-              "In the below image, you can see the sand covering old plant bags. Sand buries the bags, and the grasses establish themselves." +
-              "<img src='https://i.imgur.com/iFyP4Qc.jpg' alt='' width='100%'>",
+          "text": "On this beach, we are planting smooth cordgrass, or Spartina alterniflora. Here, an AmeriCorps member re-plants loose plants behind plant bags. <br><br><img src='https://i.imgur.com/Xc5403o.jpg' alt='AmeriCorps member planting' width='100%'><br><br>" +
+              "In the below image, you can see the sand covering old plant bags. Sand buries the bags, and the grasses establish themselves.<br><br>" +
+              "<img src='https://i.imgur.com/iFyP4Qc.jpg' alt='Sand covering old bags while new plant is planted' width='100%'>",
           "fullscreen": true
         },
         {
@@ -458,9 +458,9 @@ var APP_DATA = {
           "title": "Charcoal Tree<br>",
           "text": "This tree shows a mark from a recent fire. It's a longleaf pine tree, and its fire resistant " +
               "bark protected it from this burn.<br><br>" +
-              "<img src='https://i.imgur.com/IEkrHje.jpg' width='100%' alt=''>" +
-              "<img src='https://i.imgur.com/kwUbh9e.jpg' width='100%' alt=''>" +
-              "<img src='https://i.imgur.com/9tR92He.jpg' width='100%' alt=''><br>",
+              "<img src='https://i.imgur.com/IEkrHje.jpg' width='100%' alt='blackened tree'>" +
+              "<img src='https://i.imgur.com/kwUbh9e.jpg' width='100%' alt='blackened tree'>" +
+              "<img src='https://i.imgur.com/9tR92He.jpg' width='100%' alt='blackened tree'><br>",
           "fullscreen": false
         },
         {
@@ -494,8 +494,11 @@ var APP_DATA = {
         {
           "yaw": 2.58014679654322,
           "pitch": 0.1308555943529548,
-          "title": "Handprints",
-          "text": "",
+          "title": "Animal Tracks<br>",
+          "text": "These pawprints are from either a fox or a coyote. <br><br><img src='https://i.imgur.com/0cogqFu.jpg?1' width='100%' alt='canid print'><br>" +
+              "<img src='https://i.imgur.com/uxx2JcD.jpg' width='100%' alt='canid print'><br><br> This handprint is from a raccoon. <br><br>" +
+              "<img src='https://i.imgur.com/uTx6sYC.jpg' width='100%' alt='raccoon print'> <br> <br> Wildlife love our living shorelines. Raccoons sometimes " +
+              "come to steal our oysters for a snack.",
           "fullscreen": false
         }
       ]
@@ -547,49 +550,68 @@ var APP_DATA = {
           "yaw": 1.9643099681177567,
           "pitch": 0.030833025581156193,
           "title": "Edge of Alaqua<br>",
-          "text": "Text",
+          "text": "This is the edge of our Alaqua living shoreline site. Freeport is farther this way, to the east.<br>",
           "fullscreen": false
         },
         {
           "yaw": -0.42696646073856215,
           "pitch": -0.08919979416979373,
-          "title": "Wearing Waders<br>",
-          "text": "Text",
+          "title": "Waders<br>",
+          "text": "This AmeriCorps member is wearing waders to examine these reefs. No one makes waders durable enough to" +
+              " resist sharp oysters, so we have problems finding gear that works for us. <br>",
           "fullscreen": false
         },
         {
           "yaw": 0.03289346835211404,
           "pitch": 0.19692434563946293,
           "title": "Black Needlerush<br>",
-          "text": "Text",
+          "text": "Black needlerush, or Juncus roemerianus, grows in salt marshes. We plant it alongside smooth cordgrass" +
+              " and Spartina patens. Like smooth cordgrass, black needlerush uses rhizomes to grow. It is shorter in areas " +
+              "of higher salinity (salt level), and taller in areas of lower salinity. Its sharp leaves earn it its name.<br><br>" +
+              "<img src='https://i.imgur.com/KIGGYad.jpg?1' width='100%' alt='Needlerush leaf on hand'><br><br><img src='https://i.imgur.com/czs7ECL.jpg?1' width='100%' alt='Needlerush leaf'><br><br>",
           "fullscreen": false
         },
         {
           "yaw": 1.0418407596309613,
           "pitch": 0.09867515175440289,
-          "title": "Soft stemmed bulrush<br>",
-          "text": "Text",
+          "title": "Soft Stemmed Bulrush<br>",
+          "text": "Softstem bulrush, or Schoenoplectus tabernaemontani, is another common salt marsh plant. It can help protect other" +
+              " salt marsh plants by dispersing wave energy. It gets its name from its soft, spongy stem. " +
+              "<br><br><img src='https://i.imgur.com/ITnbHxH.jpg?1' width='100%' alt='soft stemmed bulrush with flower'><br>",
           "fullscreen": false
         },
         {
           "yaw": 1.070086127636527,
           "pitch": -0.519454447479557,
-          "title": "Long leaf pine<br>",
-          "text": "Text",
+          "title": "Longleaf Pine<br>",
+          "text": "Longleaf pine, or Pinus palustris, spends 5-12 years in a grass stage, shown below, before looking like a tree. <br> <br>" +
+              "<img src='https://upload.wikimedia.org/wikipedia/commons/9/9e/Grassstage_8236.jpg' width='100%' alt='longleaf pine grass stage'>" +
+              "<br><br>Longleaf pine used to dominate this ecosystem before European settlement, but clear-cutting" +
+              " greatly reduced its range. Many groups are working on restoring the longleaf pine savannas. Because longleaf" +
+              " pine is a fire-dependent species, land managers in Okaloosa and Walton Counties use regular prescribed burns to safely maintain " +
+              "a healthy longleaf pine savanna, providing habitat to species such as the gopher tortoise and red-cockaded woodpecker. The longleaf pine's " +
+              "branches and leaves escape the fire far above the ground, while its thick, fire-" +
+              "resistant bark protects the heart of the tree.<br>",
           "fullscreen": false
         },
         {
           "yaw": -2.313152337909843,
           "pitch": -0.05876899993406148,
-          "title": "Salt marsh succession<br>",
-          "text": "Text",
+          "title": "Salt Marsh Parts<br>",
+          "text": "A salt marsh is a wetland containing plants that can tolerate salt. CBA plants many salt marsh plants, including smooth cordgrass, " +
+              "black needlerush, and Spartina patens. We plant them in that order, with smooth cordgrass at the waterline and Spartina patens farthest from it" +
+              "because Spartina patens likes a drier environment. All three of these plants are native to this area, and they grow well with other" +
+              "Florida natives.<br>",
           "fullscreen": false
         },
         {
           "yaw": 2.7052528190512923,
           "pitch": -0.16729313183753902,
-          "title": "Visit cessna<br>",
-          "text": "Text",
+          "title": "Visit Cessna<br>",
+          "text": "If you liked this virtual tour and you're interested in learning more about our living shorelines," +
+              "<a href='https://tinyurl.com/visitcessna' style='color: lawngreen'> visit Charles E. Cessna Landing here</a>. The Choctawhatchee Basin Alliance has been planting" +
+              " at Cessna Landing for over 10 years with the help of 3rd and 5th grade students participating in our Grasses In Classes" +
+              " curriculum!",
           "fullscreen": false
         }
       ]
@@ -640,22 +662,26 @@ var APP_DATA = {
         {
           "yaw": 0.815700491482577,
           "pitch": 0.5878362370783119,
-          "title": "underwater cordgrass<br>",
-          "text": "Text",
+          "title": "Underwater Cordgrass<br>",
+          "text": "Here, smooth cordgrass is submerged! <br><br><img src='https://i.imgur.com/5W3WzMC.jpg' width='100%' alt='underwater smooth cordgrass leaves'>" +
+              " <br><br> This is normal; smooth cordgrass is an emergent plant, meaning it typically grows with its roots underwater and its leaves above water." +
+              " It's a very hardy plant, so it can also survive underwater or completely dry for shorter periods of time as the tide changes. And, as you can" +
+              " see here, smooth cordgrass can even grow between bags on our oyster reefs!<br><br>",
           "fullscreen": false
         },
         {
           "yaw": 1.6174315341842238,
           "pitch": -0.6107263709797195,
           "title": "Spanish moss<br>",
-          "text": "Text",
+          "text": "This is spanish moss, or Tillandsia usneoides. It is an epiphyte, meaning it grows on other plants, usually oaks or bald cypress.<br><br><img src='https://i.imgur.com/sdvtSdl.jpg' width='100%' alt='spanish moss'>",
           "fullscreen": false
         },
         {
           "yaw": -1.1723043644657167,
           "pitch": 0.2986023355985665,
-          "title": "Reef length + distance from shore<br>",
-          "text": "Text",
+          "title": "How big are our reefs?<br>",
+          "text": "We build our reefs a few inches above the surface of the bay to ensure they continue to break water at high tide." +
+              " ",
           "fullscreen": false
         },
         {
