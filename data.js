@@ -57,7 +57,7 @@ var APP_DATA = {
           "yaw": 6.75,
           "pitch": -0.45,
           "title": "Get Your Bearings <br>",
-          "text": " This aerial map shows approximately where each of our panoramas is located on the Alaqua shoreline." +
+          "text": " This aerial map shows approximately where each of our panoramas is located on the (?) foot Alaqua shoreline." +
               " <br> <br><img src='https://i.imgur.com/I05hUkE.png' alt='map' style='width:100%'><br>",
           "fullscreen": true
         },
@@ -673,7 +673,7 @@ var APP_DATA = {
           "yaw": 1.6174315341842238,
           "pitch": -0.6107263709797195,
           "title": "Spanish moss<br>",
-          "text": "This is spanish moss, or Tillandsia usneoides. It is an epiphyte, meaning it grows on other plants, usually oaks or bald cypress.<br><br><img src='https://i.imgur.com/sdvtSdl.jpg' width='100%' alt='spanish moss'>",
+          "text": "This is spanish moss, or Tillandsia usneoides. It is an epiphyte, meaning it grows on other plants, usually oaks or bald cypress.<br><br><img src='https://i.imgur.com/sdvtSdl.jpg' width='100%' alt='spanish moss'><br><br>",
           "fullscreen": false
         },
         {
@@ -681,29 +681,40 @@ var APP_DATA = {
           "pitch": 0.2986023355985665,
           "title": "How big are our reefs?<br>",
           "text": "We build our reefs a few inches above the surface of the bay to ensure they continue to break water at high tide." +
-              " ",
+              " Per government regulations, our reefs are typically 20 feet long each, with 10 foot gaps between them to allow water flow" +
+              " and make sure plants and animals do not become trapped.<br><br>",
           "fullscreen": false
         },
         {
           "yaw": -2.9051044700547486,
           "pitch": 0.17662140784627312,
-          "title": "Habitat",
-          "text": "Bird photo<br>",
+          "title": "Fantastic Habitat<br>",
+          "text": "Our living shoreline makes an excellent habitat for a variety of wildlife, from waterbirds to fish to" +
+              " deer and more. <br><br><img src='https://i.imgur.com/SnNi32K.jpg' alt='blurry bird' width='100%'><br><br> The Eglin " +
+              "Reservation as a whole is protected from development, so it is a haven for many species, including" +
+              " several endangered species.<br><br>",
           "fullscreen": false
         },
         {
           "yaw": 1.1158022481602288,
           "pitch": 0.2080082807714163,
-          "title": "<div>Intertidal zone</div>",
-          "text": "Text",
+          "title": "<div>Intertidal Zone</div>",
+          "text": "The intertidal zone is the area on a shoreline between the high and low tide lines. In other words, it is " +
+              "underwater only some of the time. Smooth cordgrass grows in the intertidal zone of our bay. On some beaches," +
+              " the intertidal zone is home to tide pools! <br><br>",
           "fullscreen": false
         },
         {
           "yaw": 1.9164338865361685,
           "pitch": 0.526605089883315,
-          "title": "Brackish water - excretes salt<br>",
-          "text": "Text",
-          "fullscreen": false
+          "title": "Brackish Water<br>",
+          "text": "The Choctawhatchee Bay has a variety of constantly shifting salinity levels, so plants and animals living" +
+              " in and around it must be able to adapt to these changing conditions. Smooth cordgrass is uniquely tolerant of" +
+              " salt in water; it can take in brackish water, then excrete, or push out, salt through its leaves, allowing it to" +
+              " use the fresh water that remains. <br><br><iframe width=\"100%\" height=\"530\" src=\"https://www.youtube.com/embed/mr_TRGK7s8k\" " +
+              "title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" " +
+              "allowfullscreen></iframe><br><br>",
+          "fullscreen": true
         }
       ]
     },
@@ -757,29 +768,36 @@ var APP_DATA = {
         {
           "yaw": -0.7705922850362477,
           "pitch": -0.2141498229907004,
-          "title": "Erosion is bad. Why?<br>",
-          "text": "Text",
+          "title": "Issues with Erosion<br>",
+          "text": "Erosion is the gradual wearing away of land by the action of wind, water, glaciers, or even humans. Humans can" +
+              " cause erosion by removing native plants, generating boat wakes, and loosening soil in construction. At Alaqua, erosion" +
+              " is causing land loss. It adds soil to the water, clouding our bay and reducing sunlight for underwater plants. You can see signs of erosion" +
+              " in the exposed tree roots and unstable trees on this beach.<br><br>",
           "fullscreen": false
         },
         {
           "yaw": 0.28240241559104184,
           "pitch": 0.18889029881609432,
-          "title": "Reefs fight erosion, protect trees<br>",
-          "text": "Text",
+          "title": "Reefs Fight Erosion<br>",
+          "text": "Our oyster reefs fight erosion in two ways. First, they serve as breakwaters, slowing waves and reducing wave energy" +
+              " to protect the shoreline. Second, sand and soil carried by waves gets trapped behind the reefs, reversing erosion to build back" +
+              " the land.<br><br>",
           "fullscreen": false
         },
         {
           "yaw": -1.7713467652651662,
           "pitch": -0.5972670804513953,
-          "title": "Hardwood forest<br>",
-          "text": "Text",
+          "title": "Hardwood Forest<br>",
+          "text": "In this part of Florida, pine ecosystems are the most dominant due to fire patterns. Hardwood forests like this one" +
+              " are typically only found around bodies of water. <br><br>",
           "fullscreen": false
         },
         {
           "yaw": -2.249904318532707,
           "pitch": 0.05174480684796734,
-          "title": "tree unstable due to erosion<br>",
-          "text": "Text",
+          "title": "Unstable Tree<br>",
+          "text": "This tree is leaning because erosion has washed away the soil it grew in. Our oyster reefs will give the tree a second chance as " +
+              "they rebuild the shoreline.<br><br>",
           "fullscreen": false
         },
         {
@@ -793,7 +811,7 @@ var APP_DATA = {
           "yaw": -1.7310480443291496,
           "pitch": 0.31930488317423134,
           "title": "Driftwood barnacles photo<br>",
-          "text": "Text",
+          "text": "Text<img src='https://i.imgur.com/UftpXpa.jpg' width='100%'alt='driftwood with barnacles'>",
           "fullscreen": false
         }
       ]
