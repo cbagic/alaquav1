@@ -57,7 +57,7 @@ var APP_DATA = {
           "yaw": 6.75,
           "pitch": -0.45,
           "title": "Get Your Bearings <br>",
-          "text": " This aerial map shows approximately where each of our panoramas is located on the (?) foot Alaqua shoreline." +
+          "text": " This aerial map shows approximately where each of our panoramas is located on the 1700 foot Alaqua shoreline." +
               " <br> <br><img src='https://i.imgur.com/I05hUkE.png' alt='map' style='width:100%'><br>",
           "fullscreen": true
         },
@@ -65,7 +65,10 @@ var APP_DATA = {
           "yaw": -0.4619005042930322,
           "pitch": -0.511763741515038,
           "title": "Sounds of Alaqua<br>",
-          "text": "Sounds of Alaqua placeholder<br>",
+          "text": "<audio controls loop>\n" +
+              "  <source src=\"alaquaAudio.mp3\" type=\"audio/mpeg\">\n" +
+              "Your browser does not support the audio element.\n" +
+              "</audio><br>",
           "fullscreen": false
         },
         {
@@ -785,14 +788,6 @@ var APP_DATA = {
           "fullscreen": false
         },
         {
-          "yaw": -1.7713467652651662,
-          "pitch": -0.5972670804513953,
-          "title": "Hardwood Forest<br>",
-          "text": "In this part of Florida, pine ecosystems are the most dominant due to fire patterns. Hardwood forests like this one" +
-              " are typically only found around bodies of water. <br><br>",
-          "fullscreen": false
-        },
-        {
           "yaw": -2.249904318532707,
           "pitch": 0.05174480684796734,
           "title": "Unstable Tree<br>",
@@ -803,15 +798,17 @@ var APP_DATA = {
         {
           "yaw": 1.2190551956326843,
           "pitch": 0.3836532548846918,
-          "title": "Why do we build reefs?<br>",
-          "text": "Text",
+          "title": "Why Build Reefs?<br>",
+          "text": "Oyster reefs, like smooth cordgrass salt marshes, provide many benefits to our living shorelines. Oyster reefs reverse erosion, provide" +
+              " habitat for animals such as crabs and juvenile fish, and improve water quality. Oysters are filter feeders, so they naturally remove dirt particles from the water, clearing it" +
+              " to raise visibility for fish and let light through to underwater plants. One adult oyster can filter 50 gallons of water per day.<br><br>",
           "fullscreen": false
         },
         {
           "yaw": -1.7310480443291496,
           "pitch": 0.31930488317423134,
-          "title": "Driftwood barnacles photo<br>",
-          "text": "Text<img src='https://i.imgur.com/UftpXpa.jpg' width='100%'alt='driftwood with barnacles'>",
+          "title": "Barnacles on Driftwood<br>",
+          "text": "Barnacles, like oysters, settle on hard surfaces. <br><br><img src='https://i.imgur.com/UftpXpa.jpg' width='100%'alt='driftwood with barnacles'>",
           "fullscreen": false
         }
       ]
@@ -866,36 +863,36 @@ var APP_DATA = {
         {
           "yaw": -2.2443451810666275,
           "pitch": 0.10732609484927735,
-          "title": "Fetch",
-          "text": "Text",
+          "title": "Fetch<br>",
+          "text": "From here, you can see the fetch for this site. Fetch is the distance that wind can blow to generate waves. The longer the fetch," +
+              " the higher the potential wave energy at a site and the more destructive the waves can be. For sites with higher wave energy, " +
+              "we choose heavier reef materials such as limestone. Alaqua has a smaller fetch than some of our restoration sites, so we chose to " +
+              "build with bagged recycled oyster shells. <br><br>",
           "fullscreen": false
         },
         {
           "yaw": 2.7336821483494296,
           "pitch": 0.09882628216599798,
           "title": "Dolphins!",
-          "text": "Text",
+          "text": "If you're visiting our living shoreline, you may spot a dolphin! <br><br><img src='https://i.imgur.com/6cZ5V1u.jpg' width='100%' alt='dolphin'><br><br>",
           "fullscreen": false
         },
         {
           "yaw": -2.6605560343587733,
           "pitch": -0.3736493183272245,
-          "title": "cba website<br>",
-          "text": "Text",
+          "title": "Learn More<br>",
+          "text": "This is just one of our many restoration sites around the bay. <a href='http://basinalliance.org' style='color: lawngreen'>Visit the Choctawhatchee Basin Alliance website</a> " +
+              "to learn about more restoration sites and the other work CBA does to improve the health of our estuary. <a href='https://basinalliance.maps.arcgis.com/apps/MapTour/index.html?appid=95dc079dd4e7498da59421b445806f1e' style='color: lawngreen'>Here, you can" +
+              " see an interactive map of all our restoration sites.</a><br><br>",
           "fullscreen": false
         },
         {
           "yaw": 0.07224161585608257,
           "pitch": -0.44881784499248667,
-          "title": "Hardwood forest<br>",
-          "text": "Text",
-          "fullscreen": false
-        },
-        {
-          "yaw": -1.700772422027903,
-          "pitch": -0.29594285031075707,
-          "title": "Hammock point?<br>",
-          "text": "Text",
+          "title": "Hardwood Forest<br>",
+          "text": "Hardwood trees, such as oak, are slower growing than softwood trees, such as pine. In general, hardwood trees are deciduous" +
+              " while softwood trees are coniferous. In this part of Florida, pine ecosystems are the most dominant due to fire patterns. Hardwood forests like this one" +
+              " are typically only found around bodies of water. <br><br>",
           "fullscreen": false
         }
       ]
