@@ -54,6 +54,17 @@ var APP_DATA = {
           "fullscreen": false
         },
         {
+          "yaw": 0.536753692152157,
+          "pitch": 0.2739248159271206,
+          "title": "Eastern Lubber Grasshoppers<br>",
+          "text": "These juvenile Eastern Lubber Grasshoppers make our living " +
+              "shoreline their home! The adults are clumsy and slow, giving " +
+              "the species its common name. <br> <br>" +
+              "<iframe width=\"100%\" height=\"530\" src=\"https://www.youtube.com/embed/LOb8wkBt4Mg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>" +
+              "<br> <br> <img src='https://i.imgur.com/V9lRV8x.jpg' alt='Juvenile Eastern Lubber Grasshoppers' style='width:100%;'> <br>",
+          "fullscreen": true
+        },
+        {
           "yaw": 6.75,
           "pitch": -0.45,
           "title": "Get Your Bearings <br>",
@@ -65,19 +76,20 @@ var APP_DATA = {
           "yaw": -0.4619005042930322,
           "pitch": -0.511763741515038,
           "title": "Sounds of Alaqua<br>",
-          "text": "<audio controls loop>\n" +
+          "text": "You can play this audio while you travel around. <br><br>" +
+              "<audio controls loop>\n" +
               "  <source src=\"alaquaAudio.mp3\" type=\"audio/mpeg\">\n" +
               "Your browser does not support the audio element.\n" +
-              "</audio><br>",
+              "</audio><br><br>",
           "fullscreen": false
         },
-        {
+       /* {
           "yaw": 0.26189901504017854,
           "pitch": 0.06534681923421459,
           "title": "Alaqua Through the Years<br>",
           "text": "Interview video coming soon!<br>",
           "fullscreen": true
-        },
+        }, */
         {
           "yaw": -1.177331111459976,
           "pitch": 0.23294606173970855,
@@ -91,17 +103,6 @@ var APP_DATA = {
               "the neighborhood near our Alaqua living shoreline. <br> <br>" +
               "<img src='https://i.imgur.com/aC8Asn5.jpg' alt='Drainage Ditch' style='width:100%;'> <br>",
           "fullscreen": false
-        },
-        {
-          "yaw": 0.536753692152157,
-          "pitch": 0.2739248159271206,
-          "title": "Eastern Lubber Grasshoppers<br>",
-          "text": "These juvenile Eastern Lubber Grasshoppers make our living " +
-                "shoreline their home! The adults are clumsy and slow, giving " +
-                "the species its common name. <br> <br>" +
-                "<iframe width=\"100%\" height=\"530\" src=\"https://www.youtube.com/embed/LOb8wkBt4Mg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>" +
-                "<br> <br> <img src='https://i.imgur.com/V9lRV8x.jpg' alt='Juvenile Eastern Lubber Grasshoppers' style='width:100%;'> <br>",
-          "fullscreen": true
         },
         {
           "yaw": 2.7771131391429558,
@@ -270,16 +271,6 @@ var APP_DATA = {
           "fullscreen": true
         },
         {
-          "yaw": 1.488790206597165,
-          "pitch": -0.29117675295082357,
-          "title": "Our Watershed<br>",
-          "text": "A watershed is an area of land and water that drains to a common point. Here, that common point" +
-              " is the Choctawhatchee Bay. Most of the Choctawhatchee Bay Watershed is actually in Alabama. " +
-              "Pollution that enters the Choctawhatchee River in Alabama will eventually drain into our bay. <br> <br>" +
-              " <img src='https://i.imgur.com/X0Ipene.png' alt='watershed map' width='100%'> <br>",
-          "fullscreen": true
-        },
-        {
           "yaw": 1.9483448372158474,
           "pitch": -0.10422054263287706,
           "title": "AmeriCorps members<br>",
@@ -296,6 +287,16 @@ var APP_DATA = {
               " owls and woodpeckers. They're part of the reason mature trees are so important in the forest." +
               " <br> <br><img src='https://i.imgur.com/2VAdfi1.jpg' alt='Tree Cavity' width='100%'> <br>",
           "fullscreen": false
+        },
+        {
+          "yaw": 1.488790206597165,
+          "pitch": -0.29117675295082357,
+          "title": "Our Watershed<br>",
+          "text": "A watershed is an area of land and water that drains to a common point. Here, that common point" +
+              " is the Choctawhatchee Bay. Most of the Choctawhatchee Bay Watershed is actually in Alabama. " +
+              "Pollution that enters the Choctawhatchee River in Alabama will eventually drain into our bay. <br> <br>" +
+              " <img src='https://i.imgur.com/X0Ipene.png' alt='watershed map' width='100%'> <br>",
+          "fullscreen": true
         }
       ]
     },
@@ -429,15 +430,7 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": 0.2734440139228518,
-          "pitch": -0.1779994629894066,
-          "title": "See Planting Close Up<br>",
-          "text": "On this beach, we are planting smooth cordgrass, or Spartina alterniflora. Here, an AmeriCorps member re-plants loose plants behind plant bags. <br><br><img src='https://i.imgur.com/Xc5403o.jpg' alt='AmeriCorps member planting' width='100%'><br><br>" +
-              "In the below image, you can see the sand covering old plant bags. Sand buries the bags, and the grasses establish themselves.<br><br>" +
-              "<img src='https://i.imgur.com/iFyP4Qc.jpg' alt='Sand covering old bags while new plant is planted' width='100%'>",
-          "fullscreen": true
-        },
+
         {
           "yaw": 0.6697369284232373,
           "pitch": 0.12477771048595798,
@@ -453,6 +446,16 @@ var APP_DATA = {
           "title": "<div>PVC Pipe</div>",
           "text": "This pipe helps us measure how much our reefs rebuild the shoreline. Sand builds up behind the reefs, " +
               "and we can see it happen as the sand level rises on this PVC pipe.<br>",
+          "fullscreen": false
+        },
+        {
+          "yaw": 2.58014679654322,
+          "pitch": 0.1308555943529548,
+          "title": "Animal Tracks<br>",
+          "text": "These pawprints are from either a fox or a coyote. <br><br><img src='https://i.imgur.com/0cogqFu.jpg?1' width='100%' alt='canid print'><br>" +
+              "<img src='https://i.imgur.com/uxx2JcD.jpg' width='100%' alt='canid print'><br><br> This handprint is from a raccoon. <br><br>" +
+              "<img src='https://i.imgur.com/uTx6sYC.jpg' width='100%' alt='raccoon print'> <br> <br> Wildlife love our living shorelines. Raccoons sometimes " +
+              "come to steal our oysters for a snack.",
           "fullscreen": false
         },
         {
@@ -473,7 +476,7 @@ var APP_DATA = {
           "text": "Rhizomes are a special type of underground stem. Smooth cordgrass can send out rhizomes" +
               " to help it spread to cover our shoreline. Many other plants, such as torpedo grass, lilies, " +
               "asparagus, venus flytrap, and aspen trees. The ginger root used in cooking is actually a rhizome! <br> <br>" +
-              "<img src='https://i.imgur.com/QLu61SS.png'>",
+              "<img src='https://i.imgur.com/QLu61SS.png' width='100%' alt='rhizomes'>",
           "fullscreen": false
         },
         {
@@ -495,14 +498,13 @@ var APP_DATA = {
           "fullscreen": false
         },
         {
-          "yaw": 2.58014679654322,
-          "pitch": 0.1308555943529548,
-          "title": "Animal Tracks<br>",
-          "text": "These pawprints are from either a fox or a coyote. <br><br><img src='https://i.imgur.com/0cogqFu.jpg?1' width='100%' alt='canid print'><br>" +
-              "<img src='https://i.imgur.com/uxx2JcD.jpg' width='100%' alt='canid print'><br><br> This handprint is from a raccoon. <br><br>" +
-              "<img src='https://i.imgur.com/uTx6sYC.jpg' width='100%' alt='raccoon print'> <br> <br> Wildlife love our living shorelines. Raccoons sometimes " +
-              "come to steal our oysters for a snack.",
-          "fullscreen": false
+          "yaw": 0.2734440139228518,
+          "pitch": -0.1779994629894066,
+          "title": "See Planting Close Up<br>",
+          "text": "On this beach, we are planting smooth cordgrass, or Spartina alterniflora. Here, an AmeriCorps member re-plants loose plants behind plant bags. <br><br><img src='https://i.imgur.com/Xc5403o.jpg' alt='AmeriCorps member planting' width='100%'><br><br>" +
+              "In the below image, you can see the sand covering old plant bags. Sand buries the bags, and the grasses establish themselves.<br><br>" +
+              "<img src='https://i.imgur.com/iFyP4Qc.jpg' alt='Sand covering old bags while new plant is planted' width='100%'>",
+          "fullscreen": true
         }
       ]
     },
@@ -557,14 +559,6 @@ var APP_DATA = {
           "fullscreen": false
         },
         {
-          "yaw": -0.42696646073856215,
-          "pitch": -0.08919979416979373,
-          "title": "Waders<br>",
-          "text": "This AmeriCorps member is wearing waders to examine these reefs. No one makes waders durable enough to" +
-              " resist sharp oysters, so we have problems finding gear that works for us. <br>",
-          "fullscreen": false
-        },
-        {
           "yaw": 0.03289346835211404,
           "pitch": 0.19692434563946293,
           "title": "Black Needlerush<br>",
@@ -572,6 +566,14 @@ var APP_DATA = {
               " and Spartina patens. Like smooth cordgrass, black needlerush uses rhizomes to grow. It is shorter in areas " +
               "of higher salinity (salt level), and taller in areas of lower salinity. Its sharp leaves earn it its name.<br><br>" +
               "<img src='https://i.imgur.com/KIGGYad.jpg?1' width='100%' alt='Needlerush leaf on hand'><br><br><img src='https://i.imgur.com/czs7ECL.jpg?1' width='100%' alt='Needlerush leaf'><br><br>",
+          "fullscreen": false
+        },
+        {
+          "yaw": -0.42696646073856215,
+          "pitch": -0.08919979416979373,
+          "title": "Waders<br>",
+          "text": "This AmeriCorps member is wearing waders to examine these reefs. No one makes waders durable enough to" +
+              " resist sharp oysters, so we have problems finding gear that works for us. <br>",
           "fullscreen": false
         },
         {
@@ -788,6 +790,13 @@ var APP_DATA = {
           "fullscreen": false
         },
         {
+          "yaw": -1.7310480443291496,
+          "pitch": 0.31930488317423134,
+          "title": "Barnacles on Driftwood<br>",
+          "text": "Barnacles, like oysters, settle on hard surfaces. <br><br><img src='https://i.imgur.com/UftpXpa.jpg' width='100%'alt='driftwood with barnacles'>",
+          "fullscreen": false
+        },
+        {
           "yaw": -2.249904318532707,
           "pitch": 0.05174480684796734,
           "title": "Unstable Tree<br>",
@@ -802,13 +811,6 @@ var APP_DATA = {
           "text": "Oyster reefs, like smooth cordgrass salt marshes, provide many benefits to our living shorelines. Oyster reefs reverse erosion, provide" +
               " habitat for animals such as crabs and juvenile fish, and improve water quality. Oysters are filter feeders, so they naturally remove dirt particles from the water, clearing it" +
               " to raise visibility for fish and let light through to underwater plants. One adult oyster can filter 50 gallons of water per day.<br><br>",
-          "fullscreen": false
-        },
-        {
-          "yaw": -1.7310480443291496,
-          "pitch": 0.31930488317423134,
-          "title": "Barnacles on Driftwood<br>",
-          "text": "Barnacles, like oysters, settle on hard surfaces. <br><br><img src='https://i.imgur.com/UftpXpa.jpg' width='100%'alt='driftwood with barnacles'>",
           "fullscreen": false
         }
       ]
