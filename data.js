@@ -94,13 +94,8 @@ var APP_DATA = {
           "yaw": -1.177331111459976,
           "pitch": 0.23294606173970855,
           "title": "Stormwater Runoff<br>",
-          "text": "On the shoreline, stormwater runoff can enter the bay." +
-              " Stormwater runoff is rainwater that flows over the land," +
-              " picking up pollutants, instead of soaking into it. The more " +
-              "hard surfaces in an area, like asphalt roads and developed houses, " +
-              "the more stormwater runoff is produced, as the rainwater can't soak " +
-              "into soft earth. Below, see an example of a drainage ditch from " +
-              "the neighborhood near our Alaqua living shoreline. <br> <br>" +
+          "text": "Stormwater runoff is rainwater that flows over hard surfaces, instead of sinking into soft soil." +
+              " As it travels, stormwater runoff picks up pollutants, eventually washing them into our bay. Below, see an example of a nearby drainage ditch emptying into our bay. <br> <br>" +
               "<img src='https://i.imgur.com/aC8Asn5.jpg' alt='Drainage Ditch' style='width:100%;'> <br>",
           "fullscreen": false
         },
@@ -201,7 +196,7 @@ var APP_DATA = {
           "yaw": -0.4563652548599322,
           "pitch": -0.3770214578981541,
           "title": "Live Oak<br>",
-          "text": "This tree is a live oak (<i>Quercus sp.</i>) . Live oaks are native trees that can spread over" +
+          "text": "This tree is a live oak (<i>Quercus virginiana</i>). Live oaks are native trees that can spread over" +
               " 100 feet wide and live for hundreds of years. They are evergreen, giving them their name. <br>",
           "fullscreen": false
         }
@@ -345,16 +340,18 @@ var APP_DATA = {
           "yaw": -0.6600975312425703,
           "pitch": 0.11453666443309984,
           "title": "Cypress Knees<br>",
-          "text": "Here, you can see cypress knees. <br> <br> <img src='https://i.imgur.com/PBhuGx2.jpg' alt='cypress knees' width='100%'>" +
-              "<br> <br> The purpose of cypress knees is one of the great mysteries of life. The largest recorded cypress knee" +
-              " was 14 feet tall, found on the shore of the Suwannee River. <br>",
+          "text": "Here, you can see cypress knees. The purpose of cypress knees is one of the great mysteries of life. The largest recorded cypress knee" +
+              " was 14 feet tall, found on the shore of the Suwannee River. <br> <br> <img src='https://i.imgur.com/PBhuGx2.jpg' alt='cypress knees' width='100%'>" +
+              "<br> <br>",
           "fullscreen": false
         },
         {
           "yaw": -1.545283043480664,
           "pitch": -0.10047759342193352,
           "title": "<div>Alligator Habitat</div>",
-          "text": "Alligators live in our bay, though they are rare this far north. Be careful and aware while near water. <br><br>" +
+          "text": "Alligators can be found in any body of water in Florida, including our Bay. Though they are rarer in the panhandle " +
+              "than in South Florida, we should stay mindful that we share our waterways with this magnificent critter. When enjoying our waterways, " +
+              "stay mindful of the wildlife that lives there. If you come across an alligator, count yourself lucky and admire it from afar. <br><br>" +
               "<img src='https://images.pexels.com/photos/151354/pexels-photo-151354.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='alligator' width='100%'><br>",
           "fullscreen": false
         },
@@ -381,12 +378,12 @@ var APP_DATA = {
           "yaw": 1.8405027321975362,
           "pitch": 0.3147816990616086,
           "title": "Marine Debris<br>",
-          "text": "This piece of orange netting is an example of marine debris. Marine debris is trash that ends up in water bodies. " +
+          "text": "In water, everything takes longer to degrade. For example, when cigarettes become marine debris, they stick around for 10-12 years. " +
+              "Plastic bottles can stay in our waterways for 450 years. You can fight marine debris by putting your trash in secure bins, reducing waste, and participating in beach cleanups.<br>" +
+              "This piece of orange netting is an example of marine debris. Marine debris is trash that ends up in water bodies. " +
               "It causes problems for both people and wildlife, especially when animals mistake it for food.<br> <br> " +
               "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Turtle_entangled_in_marine_debris_%28ghost_net%29.jpg/300px-Turtle_entangled_in_marine_debris_%28ghost_net%29.jpg' alt='Man examines marine debris' width='100%'> " +
-              "<br><br>" +
-              " In water, everything takes longer to degrade. For example, when cigarettes become marine debris, they stick around for 10-12 years. " +
-              "Plastic bottles can stay in our waterways for 450 years. You can fight marine debris by putting your trash in secure bins, reducing waste, and participating in beach cleanups.<br>",
+              "<br><br>",
           "fullscreen": false
         }
       ]
@@ -474,7 +471,7 @@ var APP_DATA = {
           "pitch": 0.5837482150609432,
           "title": "Rhizomes",
           "text": "Rhizomes are a special type of underground stem. Smooth cordgrass can send out rhizomes" +
-              " to help it spread to cover our shoreline. Many other plants, such as torpedo grass, lilies, " +
+              " to help it spread to cover our shoreline. Many other plants have rhizomes, such as torpedo grass, lilies, " +
               "asparagus, venus flytrap, and aspen trees. The ginger root used in cooking is actually a rhizome! <br> <br>" +
               "<img src='https://i.imgur.com/QLu61SS.png' width='100%' alt='rhizomes'>",
           "fullscreen": false
@@ -493,8 +490,7 @@ var APP_DATA = {
           "yaw": 1.0609672902164817,
           "pitch": -0.05010818158282504,
           "title": "Spartina patens<br>",
-          "text": "We plant Spartina patens, another type of cordgrass, behind our smooth cordgrass. It likes a drier" +
-              " environment than smooth cordgrass, so we plant it farther from the water.<br>",
+          "text": "We also plant Spartina patens, another type of cordgrass. It likes a drier environment, so we plant it behind our smooth cordgrass, farther from the water.<br><br>",
           "fullscreen": false
         },
         {
@@ -589,11 +585,11 @@ var APP_DATA = {
           "yaw": 1.070086127636527,
           "pitch": -0.519454447479557,
           "title": "Longleaf Pine<br>",
-          "text": "Longleaf pine, or Pinus palustris, spends 5-12 years in a grass stage, shown below, before looking like a tree. <br> <br>" +
+          "text": "The majority of the Eglin Air Force Base Reservation is made up of longleaf pine habitat. Longleaf pine, or Pinus palustris, spends 5-12 years in a grass stage, shown below, before looking like a tree. <br> <br>" +
               "<img src='https://upload.wikimedia.org/wikipedia/commons/9/9e/Grassstage_8236.jpg' width='100%' alt='longleaf pine grass stage'>" +
-              "<br><br>Longleaf pine used to dominate this ecosystem before European settlement, but clear-cutting" +
+              "<br><br>Longleaf pine used to dominate this ecosystem before European settlement, but clear-cutting and fire suppression" +
               " greatly reduced its range. Many groups are working on restoring the longleaf pine savannas. Because longleaf" +
-              " pine is a fire-dependent species, land managers in Okaloosa and Walton Counties use regular prescribed burns to safely maintain " +
+              " pine is a fire-dependent species, land managers in Okaloosa and Walton Counties, including Jackson Guard on the Eglin Reservation, use regular prescribed burns to safely maintain " +
               "a healthy longleaf pine savanna, providing habitat to species such as the gopher tortoise and red-cockaded woodpecker. The longleaf pine's " +
               "branches and leaves escape the fire far above the ground, while its thick, fire-" +
               "resistant bark protects the heart of the tree.<br>",
@@ -602,11 +598,9 @@ var APP_DATA = {
         {
           "yaw": -2.313152337909843,
           "pitch": -0.05876899993406148,
-          "title": "Salt Marsh Parts<br>",
-          "text": "A salt marsh is a wetland containing plants that can tolerate salt. CBA plants many salt marsh plants, including smooth cordgrass, " +
-              "black needlerush, and Spartina patens. We plant them in that order, with smooth cordgrass at the waterline and Spartina patens farthest from it" +
-              "because Spartina patens likes a drier environment. All three of these plants are native to this area, and they grow well with other" +
-              "Florida natives.<br>",
+          "title": "Salt Marsh Layers<br>",
+          "text": "A salt marsh is a wetland containing plants that can tolerate salt. CBA plants many salt marsh plants: smooth cordgrass at the waterline, black needlerush in the middle, and Spartina patens farthest from it. All three of these plants are native to this area, and they grow well with other " +
+              "Florida natives.<br><br>",
           "fullscreen": false
         },
         {
@@ -616,7 +610,7 @@ var APP_DATA = {
           "text": "If you liked this virtual tour and you're interested in learning more about our living shorelines," +
               "<a href='https://tinyurl.com/visitcessna' style='color: lawngreen'> visit Charles E. Cessna Landing here</a>. The Choctawhatchee Basin Alliance has been planting" +
               " at Cessna Landing for over 10 years with the help of 3rd and 5th grade students participating in our Grasses In Classes" +
-              " curriculum!",
+              " program!",
           "fullscreen": false
         }
       ]
@@ -715,7 +709,7 @@ var APP_DATA = {
           "title": "Brackish Water<br>",
           "text": "The Choctawhatchee Bay has a variety of constantly shifting salinity levels, so plants and animals living" +
               " in and around it must be able to adapt to these changing conditions. Smooth cordgrass is uniquely tolerant of" +
-              " salt in water; it can take in brackish water, then excrete, or push out, salt through its leaves, allowing it to" +
+              " salt in water. It can take in brackish water, then excrete, or push out, salt through its leaves, allowing it to" +
               " use the fresh water that remains. <br><br><iframe width=\"100%\" height=\"530\" src=\"https://www.youtube.com/embed/mr_TRGK7s8k\" " +
               "title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" " +
               "allowfullscreen></iframe><br><br>",
@@ -809,7 +803,7 @@ var APP_DATA = {
           "pitch": 0.3836532548846918,
           "title": "Why Build Reefs?<br>",
           "text": "Oyster reefs, like smooth cordgrass salt marshes, provide many benefits to our living shorelines. Oyster reefs reverse erosion, provide" +
-              " habitat for animals such as crabs and juvenile fish, and improve water quality. Oysters are filter feeders, so they naturally remove dirt particles from the water, clearing it" +
+              " habitat for animals such as crabs and juvenile fish, and improve water quality. Oysters are filter feeders, so they naturally remove suspended particles from the water, clearing it" +
               " to raise visibility for fish and let light through to underwater plants. One adult oyster can filter 50 gallons of water per day.<br><br>",
           "fullscreen": false
         }
