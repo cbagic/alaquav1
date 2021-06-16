@@ -432,12 +432,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 /* Info hotspot */
 
-/* .info-hotspot-f {
-  line-height: 1.2em;
-  opacity: 0.9;
-  -webkit-transition: opacity 0.2s 0.2s;
-  transition: opacity 0.2s 0.2s;
-} */
+
 
 .info-hotspot, .info-hotspot-f {
   line-height: 1.2em;
@@ -446,37 +441,17 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   transition: opacity 0.2s 0.2s;
 }
 
-/* .no-touch .info-hotspot-f:hover {
-  opacity: 1;
-  -webkit-transition: opacity 0.2s;
-  transition: opacity 0.2s;
-} */
-
 .no-touch .info-hotspot:hover, .no-touch .info-hotspot-f:hover {
   opacity: 1;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
 
-/* .info-hotspot-f.visible {
-  opacity: 1;
-} */
-
 .info-hotspot.visible, .info-hotspot-f.visible {
   opacity: 1;
 }
 
-/* .info-hotspot-f .info-hotspot-header {
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: rgb(103,115,131);
-  cursor: pointer;
-  -webkit-transition: width 0.3s ease-in-out 0.5s,
-  border-radius 0.3s ease-in-out 0.5s;
-  transition: width 0.3s ease-in-out 0.5s,
-  border-radius 0.3s ease-in-out 0.5s;
-} */
+
 
 .info-hotspot .info-hotspot-header, .info-hotspot-f .info-hotspot-header {
   width: 40px;
@@ -490,11 +465,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               border-radius 0.3s ease-in-out 0.5s;
 }
 
-/* .mobile .info-hotspot-f .info-hotspot-header {
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-} */
+
 
 .mobile .info-hotspot .info-hotspot-header, .mobile .info-hotspot-f .info-hotspot-header {
   width: 50px;
@@ -547,31 +518,21 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               border-radius 0.3s ease-in-out;
 }
 
-/* .info-hotspot-f .info-hotspot-icon-wrapper {
-  width: 40px;
-  height: 40px;
-} */
+
 
 .info-hotspot .info-hotspot-icon-wrapper, .info-hotspot-f .info-hotspot-icon-wrapper {
   width: 40px;
   height: 40px;
 }
 
-/* .mobile .info-hotspot-f .info-hotspot-icon-wrapper {
-  width: 50px;
-  height: 50px;
-} */
+
 
 .mobile .info-hotspot .info-hotspot-icon-wrapper, .mobile .info-hotspot-f .info-hotspot-icon-wrapper {
   width: 50px;
   height: 50px;
 }
 
-/* .info-hotspot-f .info-hotspot-icon {
-  width: 90%;
-  height: 90%;
-  margin: 5%;
-} */
+
 
 .info-hotspot .info-hotspot-icon, .info-hotspot-f .info-hotspot-icon {
   width: 90%;
@@ -579,19 +540,6 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   margin: 5%;
 }
 
-/* .info-hotspot-f .info-hotspot-title-wrapper {
-  position: absolute;
-  left: 40px;
-  top: 0;
-  width: 0;
-  height: 40px;
-  padding: 0;
-  overflow: hidden;
-  -webkit-transition: width 0s 0.4s,
-  padding 0s 0.4s;
-  transition: width 0s 0.4s,
-  padding 0s 0.4s;
-} */
 
 .info-hotspot .info-hotspot-title-wrapper, .info-hotspot-f .info-hotspot-title-wrapper {
   position: absolute;
@@ -609,7 +557,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 .desktop .info-hotspot-f.visible .info-hotspot-title-wrapper,
 .desktop.no-touch .info-hotspot-f .info-hotspot-header:hover .info-hotspot-title-wrapper {
-  /* width for title or width for both title and text on desktop? */
+
   width: 660px;
   padding: 0 5px;
   -webkit-transition: width 0s 0.4s,
@@ -628,12 +576,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               padding 0s 0.4s;
 }
 
-/* .info-hotspot-f .info-hotspot-title-wrapper:before {
-  content: '';
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
-} */
+
 
 .info-hotspot .info-hotspot-title-wrapper:before, .info-hotspot-f .info-hotspot-title-wrapper:before {
   content: '';
@@ -642,15 +585,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   height: 100%;
 }
 
-/* .info-hotspot-f .info-hotspot-title {
-  display: inline-block;
-  vertical-align: middle;
 
-  -moz-user-select: text;
-  -webkit-user-select: text;
-  -ms-user-select: text;
-  user-select: text;
-} */
 
 .info-hotspot .info-hotspot-title, .info-hotspot-f .info-hotspot-title  {
   display: inline-block;
@@ -712,21 +647,6 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               visibility 0s 0.6s;
 }
 
-/* .desktop .info-hotspot-f.visible .info-hotspot-close-wrapper {
-  visibility: visible;
-  -ms-transform: perspective(200px) rotateY(0deg);
-  -webkit-transform: perspective(200px) rotateY(0deg);
-  transform: perspective(200px) rotateY(0deg);
-  -webkit-transition: -ms-transform 0.3s,
-  -webkit-transform 0.3s,
-  transform 0.3s,
-  visibility 0s 0s;
-  transition: -ms-transform 0.3s,
-  -webkit-transform 0.3s,
-  transform 0.3s,
-  visibility 0s 0s;
-} */
-
 .desktop .info-hotspot.visible .info-hotspot-close-wrapper, .desktop .info-hotspot-f.visible .info-hotspot-close-wrapper {
   visibility: visible;
   -ms-transform: perspective(200px) rotateY(0deg);
@@ -742,11 +662,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               visibility 0s 0s;
 }
 
-/* .info-hotspot-f .info-hotspot-close-icon {
-  width: 70%;
-  height: 70%;
-  margin: 15%;
-} */
+
 
 .info-hotspot .info-hotspot-close-icon, .info-hotspot-f .info-hotspot-close-icon {
   width: 70%;
@@ -756,7 +672,6 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 .info-hotspot-f .info-hotspot-text {
   position: absolute;
-  /* info hotspot text width? */
   width: 740px;
   height: auto;
   max-height: 825px;
