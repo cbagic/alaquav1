@@ -68,7 +68,7 @@ var APP_DATA = {
           "yaw": 6.75,
           "pitch": -0.45,
           "title": "Get Your Bearings <br>",
-          "text": "This aerial map shows approximately where each of our panoramas is located on the 1700 foot Alaqua shoreline." +
+          "text": "This aerial map shows approximately where each panorama is located on the 1700 foot Alaqua shoreline." +
               " <br> <br><img src='https://i.imgur.com/I05hUkE.png' alt='map' style='width:100%'><br><br>",
           "fullscreen": true
         },
@@ -471,7 +471,7 @@ var APP_DATA = {
           "title": "Rhizomes<br>",
           "text": "Rhizomes are a special type of underground stem. Smooth cordgrass can send out rhizomes" +
               " to help it spread to cover our shoreline. Many other plants have rhizomes, such as torpedo grass, lilies, " +
-              "asparagus, venus flytrap, and aspen trees. The ginger root used in cooking is actually a rhizome! <br> <br>" +
+              "asparagus, venus flytraps, and aspen trees. The ginger root used in cooking is actually a rhizome! <br> <br>" +
               "<img src='https://i.imgur.com/QLu61SS.png' width='100%' alt='rhizomes'><br><br>",
           "fullscreen": false
         },
@@ -803,7 +803,7 @@ var APP_DATA = {
           "title": "Why Build Reefs?<br>",
           "text": "Oyster reefs, like smooth cordgrass salt marshes, provide many benefits to our living shorelines. Oyster reefs reverse erosion, provide" +
               " habitat for animals such as crabs and juvenile fish, and improve water quality. Oysters are filter feeders, so they naturally remove suspended particles from the water, clearing it" +
-              " to raise visibility for fish and let light through to underwater plants. One adult oyster can filter 50 gallons of water per day.<br><br>",
+              " to raise visibility for fish and let light through to underwater plants. One adult oyster can filter 50 gallons of water per day!<br><br>",
           "fullscreen": false
         }
       ]

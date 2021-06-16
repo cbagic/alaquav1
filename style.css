@@ -533,6 +533,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   border-radius 0.3s ease-in-out;
 }
 
+
 .desktop .info-hotspot.visible .info-hotspot-header,
 .desktop.no-touch .info-hotspot.visible .info-hotspot-header:hover {
   width: 260px;
