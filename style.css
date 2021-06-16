@@ -440,26 +440,26 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 
 
-.info-hotspot, .info-hotspot-f {
+.info-hotspot {
   line-height: 1.2em;
   opacity: 0.9;
   -webkit-transition: opacity 0.2s 0.2s;
   transition: opacity 0.2s 0.2s;
 }
 
-.no-touch .info-hotspot:hover, .no-touch .info-hotspot-f:hover {
+.no-touch .info-hotspot:hover {
   opacity: 1;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
 
-.info-hotspot.visible, .info-hotspot-f.visible {
+.info-hotspot.visible {
   opacity: 1;
 }
 
 
 
-.info-hotspot .info-hotspot-header, .info-hotspot-f .info-hotspot-header {
+.info-hotspot .info-hotspot-header {
   width: 40px;
   height: 40px;
   border-radius: 20px;
@@ -473,7 +473,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 
 
-.mobile .info-hotspot .info-hotspot-header, .mobile .info-hotspot-f .info-hotspot-header {
+.mobile .info-hotspot .info-hotspot-header {
   width: 50px;
   height: 50px;
   border-radius: 25px;
@@ -488,7 +488,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   border-radius 0.3s ease-in-out;
 }
 
-.desktop.no-touch .info-hotspot .info-hotspot-header:hover {
+.desktop.no-touch .info-hotspot-nf .info-hotspot-header:hover {
   width: 260px;
   border-radius: 5px;
   -webkit-transition: width 0.3s ease-in-out,
@@ -511,8 +511,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 }
 
 
-.desktop .info-hotspot.visible .info-hotspot-header,
-.desktop.no-touch .info-hotspot.visible .info-hotspot-header:hover {
+.desktop .info-hotspot-nf.visible .info-hotspot-header,
+.desktop.no-touch .info-hotspot-nf.visible .info-hotspot-header:hover {
   width: 260px;
   border-radius: 5px;
   border-top-right-radius: 0;
@@ -526,28 +526,28 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 
 
-.info-hotspot .info-hotspot-icon-wrapper, .info-hotspot-f .info-hotspot-icon-wrapper {
+.info-hotspot .info-hotspot-icon-wrapper {
   width: 40px;
   height: 40px;
 }
 
 
 
-.mobile .info-hotspot .info-hotspot-icon-wrapper, .mobile .info-hotspot-f .info-hotspot-icon-wrapper {
+.mobile .info-hotspot .info-hotspot-icon-wrapper {
   width: 50px;
   height: 50px;
 }
 
 
 
-.info-hotspot .info-hotspot-icon, .info-hotspot-f .info-hotspot-icon {
+.info-hotspot .info-hotspot-icon {
   width: 90%;
   height: 90%;
   margin: 5%;
 }
 
 
-.info-hotspot .info-hotspot-title-wrapper, .info-hotspot-f .info-hotspot-title-wrapper {
+.info-hotspot .info-hotspot-title-wrapper {
   position: absolute;
   left: 40px;
   top: 0;
@@ -572,8 +572,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   padding 0s 0.4s;
 }
 
-.desktop .info-hotspot.visible .info-hotspot-title-wrapper,
-.desktop.no-touch .info-hotspot .info-hotspot-header:hover .info-hotspot-title-wrapper {
+.desktop .info-hotspot-nf.visible .info-hotspot-title-wrapper,
+.desktop.no-touch .info-hotspot-nf .info-hotspot-header:hover .info-hotspot-title-wrapper {
   width: 220px;
   padding: 0 5px;
   -webkit-transition: width 0s 0.4s,
@@ -584,7 +584,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 
 
-.info-hotspot .info-hotspot-title-wrapper:before, .info-hotspot-f .info-hotspot-title-wrapper:before {
+.info-hotspot .info-hotspot-title-wrapper:before {
   content: '';
   display: inline-block;
   vertical-align: middle;
@@ -593,7 +593,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 
 
-.info-hotspot .info-hotspot-title, .info-hotspot-f .info-hotspot-title  {
+.info-hotspot .info-hotspot-title  {
   display: inline-block;
   vertical-align: middle;
 
@@ -628,7 +628,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   visibility 0s 0.6s;
 }
 
-.info-hotspot .info-hotspot-close-wrapper {
+.info-hotspot-nf .info-hotspot-close-wrapper {
   position: absolute;
   left: 260px;
   top: 0;
@@ -653,7 +653,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               visibility 0s 0.6s;
 }
 
-.desktop .info-hotspot.visible .info-hotspot-close-wrapper, .desktop .info-hotspot-f.visible .info-hotspot-close-wrapper {
+.desktop .info-hotspot.visible .info-hotspot-close-wrapper {
   visibility: visible;
   -ms-transform: perspective(200px) rotateY(0deg);
   -webkit-transform: perspective(200px) rotateY(0deg);
@@ -670,7 +670,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 
 
-.info-hotspot .info-hotspot-close-icon, .info-hotspot-f .info-hotspot-close-icon {
+.info-hotspot .info-hotspot-close-icon {
   width: 70%;
   height: 70%;
   margin: 15%;
@@ -711,7 +711,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   user-select: text;
 }
 
-.info-hotspot .info-hotspot-text {
+.info-hotspot-nf .info-hotspot-text {
   position: absolute;
   width: 300px;
   height: auto;
@@ -746,7 +746,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   user-select: text;
 }
 
-.desktop .info-hotspot.visible .info-hotspot-text, .desktop .info-hotspot-f.visible .info-hotspot-text {
+.desktop .info-hotspot.visible .info-hotspot-text {
   visibility: visible;
   -ms-transform: perspective(200px) rotateX(0deg);
   -webkit-transform: perspective(200px) rotateX(0deg);

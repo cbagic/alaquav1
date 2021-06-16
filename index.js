@@ -295,7 +295,7 @@
   //This is the function you will have to change to add a large info hotspot size.
   function createInfoHotspotElement(hotspot) {
     // Create new variable to differentiate btwn fullscreen true and false
-    var infoClass = "info-hotspot";
+    var infoClass = "info-hotspot-nf";
     if(hotspot.fullscreen){
       infoClass = "info-hotspot-f";
     }
@@ -304,6 +304,7 @@
     var wrapper = document.createElement('div');
     wrapper.classList.add('hotspot');
     // Use infoClass to give non-full-screen elements the info-hotspot class and fullscreen elements the info-hotspot-f class. These classes are used in style.css
+    wrapper.classList.add("info-hotspot");
     wrapper.classList.add(infoClass);
 
     // Create hotspot/tooltip header.
