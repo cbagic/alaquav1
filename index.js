@@ -13,6 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+
+/* This JavaScript document does all the work - generates your info hotspots, puts them together and adds them into the HTML,
+*  puts your panoramas together, figures out whether you're on mobile vs desktop, etc. */
 'use strict';
 
 (function() {
@@ -30,7 +34,9 @@
   var autorotateToggleElement = document.querySelector('#autorotateToggle');
   var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
 
-  // Detect desktop or mobile mode.
+  /* Detect desktop or mobile mode. This will need to be changed from Marzipano's default - see instructions doc. By default, Marzipano does
+    not recognize tablets as mobile devices. Changing this makes your virtual tour easier to read on a tablet.
+   */
   function isMobileTablet(){
     var check = false;
     (function(a){
@@ -45,28 +51,10 @@
   if (isMobileTablet()) {
     document.body.classList.remove('desktop');
     document.body.classList.add('mobile');
-    //document.getElementById("tourBody").style.fontSize = screen.width / 20;
-    //console.log("font size" + document.getElementById("tourBody").style.fontSize);
   } else {
     document.body.classList.remove('mobile');
     document.body.classList.add('desktop');
   }
-  /*if (window.matchMedia) {
-    var setMode = function() {
-      if (mql.matches) {
-        document.body.classList.remove('desktop');
-        document.body.classList.add('mobile');
-      } else {
-        document.body.classList.remove('mobile');
-        document.body.classList.add('desktop');
-      }
-    };
-    var mql = matchMedia("(max-width: 500px), (max-height: 500px)");
-    setMode();
-    mql.addListener(setMode);
-  } else {
-    document.body.classList.add('desktop');
-  } */
 
   // Detect whether we are on a touch device.
   document.body.classList.add('no-touch');
@@ -304,7 +292,9 @@
     return wrapper;
   }
 
+  //This is the function you will have to change to add a large info hotspot size.
   function createInfoHotspotElement(hotspot) {
+    // Create new variable to differentiate btwn fullscreen true and false
     var infoClass = "info-hotspot";
     if(hotspot.fullscreen){
       infoClass = "info-hotspot-f";
@@ -313,6 +303,7 @@
     // Create wrapper element to hold icon and tooltip.
     var wrapper = document.createElement('div');
     wrapper.classList.add('hotspot');
+    // Use infoClass to give non-full-screen elements the info-hotspot class and fullscreen elements the info-hotspot-f class. These classes are used in style.css
     wrapper.classList.add(infoClass);
 
     // Create hotspot/tooltip header.

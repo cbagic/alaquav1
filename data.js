@@ -1,9 +1,14 @@
+// This object APP_DATA contains all the panoramas and all the information Marzipano has about them as well as the information to get their tiles.
 var APP_DATA = {
   "scenes": [
+      // This is an array of all the different panoramas.
     {
       "id": "0-welcome-to-alaqua",
+      // This is how functions identify this panorama.
       "name": "Welcome to Alaqua",
+      // Change the name on the link hotspots here.
       "levels": [
+          // This sets how the page constructs the panoramas.
         {
           "tileSize": 256,
           "size": 256,
@@ -20,11 +25,13 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
+        // This sets the coordinates of the initial view.
         "yaw": 0,
         "pitch": 0,
         "fov": 1.3108730938557924
       },
       "linkHotspots": [
+          // Here are your links. To change the target, add a new scene id.
         {
           "yaw": -0.7583824400024923,
           "pitch": 0.06381903643335463,
@@ -39,6 +46,7 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
+          // This is where you edit the text in your info hotspots, add new ones, and change positioning
         {
           "yaw": 3.4705625040487575e-9,
           "pitch": -0.21180812403554938,
@@ -52,6 +60,7 @@ var APP_DATA = {
               " learn what makes living shorelines special and important. Click and" +
               " drag to move around, and click on info hotspots to read more. <br><br>",
           "fullscreen": false
+          // This is your fullscreen property. You will have to add this manually if you want to have multiple widths of info hotspot.
         },
         {
           "yaw": 0.536753692152157,
@@ -77,9 +86,9 @@ var APP_DATA = {
           "pitch": -0.511763741515038,
           "title": "Sounds of Alaqua<br>",
           "text": "You can play this background audio while you travel around. <br><br>" +
-              "<audio controls loop>\n" +
-              "  <source src=\"alaquaAudio.mp3\" type=\"audio/mpeg\">\n" +
-              "Your browser does not support the audio element.\n" +
+              "<audio controls loop>" +
+              "  <source src=\"alaquaAudio.mp3\" type=\"audio/mpeg\">" +
+              "Your browser does not support the audio element." +
               "</audio><br><br>",
           "fullscreen": false
         },

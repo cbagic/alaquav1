@@ -1,3 +1,9 @@
+/* This CSS document deals with style in the document, especially sizing. The biggest edits you'll need to make here are
+  related to your fullscreen function.
+
+
+*/
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
