@@ -174,8 +174,7 @@ var APP_DATA = {
           "pitch": 0.37302938854900525,
           "title": "A Buried Reef? <br>",
           "text": "Oyster reefs rebuild the shoreline and reverse erosion by trapping sand and sediment washed in by waves." +
-              " This sediment builds up behind the reef, as you can see here. The bay floor is also soft," +
-              " so reefs slowly sink. This reef might need some topping off! <br><br>",
+              " This sediment builds up behind the reef, as you can see here. This reef might need some topping off! <br><br>",
           "fullscreen": false
         },
         {
